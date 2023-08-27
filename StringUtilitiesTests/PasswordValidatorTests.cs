@@ -2,7 +2,7 @@ using StringUtilities;
 
 namespace StringValidatorTests
 {
-	public class StringValidatorTests
+	public class PasswordValidatorTests
 	{
 		[Theory]
 		[InlineData(null, false)]
@@ -18,6 +18,7 @@ namespace StringValidatorTests
 		[InlineData("Ab12 345^", false)]
 		[InlineData("Ab12	345^", false)]
 		[InlineData("Ab12\n345^", false)]
+		[InlineData("Ab1!", true)]
 		[InlineData("Ab12345!", true)]
 		[InlineData("Ab12345\"", true)]
 		[InlineData("Ab12345#", true)]
@@ -52,7 +53,7 @@ namespace StringValidatorTests
 		[InlineData("Ab12345~", true)]
 		public void ValidatePassword_ReturnsCorrectResult(string? input, bool expectetResult)
 		{
-			var result = StringValidator.ValidatePassword(input);
+			var result = PasswordValidator.Validate(input);
 
 			Assert.Equal(expectetResult, result);
 		}

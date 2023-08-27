@@ -51,7 +51,7 @@ string?[] passwords = {
 
 foreach (var password in passwords)
 {
-    Console.WriteLine($"Password: {password}. Is valid: {StringValidator.ValidatePassword(password)}");
+    Console.WriteLine($"Password: {password}. Is valid: {PasswordValidator.Validate(password, minLength: 8, maxLength: 16)}");
 }
 
 Console.ReadLine();
