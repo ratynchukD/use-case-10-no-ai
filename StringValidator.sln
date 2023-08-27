@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringValidator", "StringVa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringValidatorUsage", "StringValidatorUsage\StringValidatorUsage.csproj", "{F508D203-86B8-4F7B-8501-C85D7E1D5802}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringValidatorTests", "StringValidatorTests\StringValidatorTests.csproj", "{4E858E10-1D8D-4817-BA21-3D5888E09D1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F508D203-86B8-4F7B-8501-C85D7E1D5802}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F508D203-86B8-4F7B-8501-C85D7E1D5802}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F508D203-86B8-4F7B-8501-C85D7E1D5802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E858E10-1D8D-4817-BA21-3D5888E09D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E858E10-1D8D-4817-BA21-3D5888E09D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E858E10-1D8D-4817-BA21-3D5888E09D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E858E10-1D8D-4817-BA21-3D5888E09D1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
